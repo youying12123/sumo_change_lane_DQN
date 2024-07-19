@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <route edges="gneE6" color="yellow" id="route_0"/>
+
+    <vType id="human" accel="3.5" decel="4.0" sigma="0.5" length="4" maxSpeed="4.5" carFollowModel="IDM" minGap="6" laneChangeModel="LC2013" guiShape='passenger/wagon'/>
+    <vType id="rl" accel="4.5" decel="4.0" sigma="0.5" length="4" maxSpeed="5"  carFollowModel="IDM" minGap="1.5" laneChangeModel="LC2013"  guiShape='passenger/van' color="1,0,0"/>
+
+
+	
+</routes>
